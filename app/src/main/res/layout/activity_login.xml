@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    //firstname
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:id="@+id/f_name"
+        android:text="First Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingTop="30dp"
+        android:id="@+id/fname"
+        android:layout_below="@+id/f_name"
+        />
+
+    //last Name
+
+    <TextView
+        android:id="@+id/l_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fname"
+        android:paddingTop="20dp"
+        android:text="Last Name"
+        android:textSize="35sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lname"
+        android:layout_below="@+id/l_name"
+        android:ems="10"
+        android:paddingTop="25dp" />
+
+    //username
+    <TextView
+        android:id="@+id/user1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="35sp"
+        android:layout_below="@+id/lname"
+        android:paddingTop="15dp"/>
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingTop="25dp"
+        android:layout_below="@+id/user1"
+        />
+
+
+    //password
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="Password"
+        android:textSize="35sp"
+        android:layout_below="@+id/username1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password1"
+        android:layout_below="@+id/pass"
+        android:paddingTop="25dp"
+        />
+
+    //submit button
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password1"
+        android:id="@+id/submit"
+        android:text="submit"
+        android:textSize="25dp" />
+
+    //details
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/submit"-->
+<!--        android:id="@+id/details"-->
+<!--        android:text="Details"-->
+<!--        android:textSize="25dp"/>-->
+
+</RelativeLayout>
